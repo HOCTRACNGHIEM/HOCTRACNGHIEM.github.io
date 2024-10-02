@@ -52,12 +52,12 @@
     </style>
     <!--   // ĐẠON NÀY LÀ TẠO THƯ MỤC DẠNG CÂY - NGÀY 2/10/2024 THÊM ĐOẠN NÀY *************************-->
     <script>
-        function toggleMenu(element) {
+         function toggleMenu(element) {
             var submenu = element.nextElementSibling;
-            if (submenu.style.display === "block") {
-                submenu.style.display = "none";
-            } else {
+            if (submenu.style.display === "none" || submenu.style.display === "") {
                 submenu.style.display = "block";
+            } else {
+                submenu.style.display = "none";
             }
         }        
     </script>
