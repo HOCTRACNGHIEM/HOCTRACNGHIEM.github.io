@@ -37,7 +37,7 @@
             margin: 5px 0;
         }
        <!-- NGÀY 2/10/2024 THÊM ĐOẠN NÀY ************************* -->
-          ul ul {
+        ul ul {
             display: none;
             margin-left: 20px;
         }
@@ -54,12 +54,12 @@
     <script>
         function toggleMenu(element) {
             var submenu = element.nextElementSibling;
-            if (submenu.style.display === "none" || submenu.style.display === "") {
-                submenu.style.display = "block";
-            } else {
+            if (submenu.style.display === "block") {
                 submenu.style.display = "none";
+            } else {
+                submenu.style.display = "block";
             }
-        }
+        }        
     </script>
    <!-- // *************************************************************************************************** -->
 </head>
